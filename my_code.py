@@ -8,8 +8,9 @@ while True:
     stop=input("press stop to stop or cont to continue ")
     if stop=="stop":
         for x, y in teamdictionary.items():
-            print (x,y)
-            break
+            import sys
+            print (teamdictionary)
+            quit()
     if stop=="cont":
         teams=input("enter an NFL team: ")
         qbs=input("enter a quarterback: ")
