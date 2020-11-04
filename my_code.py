@@ -9,9 +9,8 @@ def code():
         stop=input("press stop to stop or cont to continue ")
         if stop=="stop":
             for x, y in teamdictionary.items():
-                print (teamdictionary)
-                import sys
-                quit()
+                print (x, y)
+            quit()
     if stop=="cont":
         code()
 
